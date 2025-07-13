@@ -18,8 +18,59 @@
 
 
 ## Projects
-### Data-Driven EEG Band Discovery with Decision Trees
-[Publication](https://www.youtube.com/)
+### A Behavioral Experiment on Student Attendance
+### 🧠 *Objective:*
+
+To determine whether sending *incentive-based email reminders* increases attendance at student-led events.
+
+### 🧪 *Experiment Design:*
+
+| Component                  | Description                                                        |
+| -------------------------- | ------------------------------------------------------------------ |
+| *Sample*                 | 48 pre-registered students for internal events at UCSD Rady School |
+| *Randomization*          | Done at the individual level using a Python script                 |
+| *Treatment Group*        | Received a reminder email 24–48 hours before the event             |
+| *Control Group*          | Received no reminder                                               |
+| *Tracking*               | Attendance was measured using event sign-in records                |
+| *Incentives Highlighted* | Free food 🍔, networking 🤝, insider insights 💡                   |
+
+📩 Sample Reminder Email:
+“Just a reminder: Don’t miss tonight’s event! ✅ Free food, ✅ Meet UCSD’s supply chain leader, ✅ Insider insights — it’s all happening at 5:15 PM in Room 3N128!”
+
+### 📊 *Statistical Analysis & Results:*
+
+#### ✅ T-Test
+
+•⁠  ⁠*T-statistic*: -2.8284
+•⁠  ⁠*P-value: 0.0076 (statistically significant*)
+•⁠  ⁠*Interpretation*: Attendance significantly increased with reminders
+[t-Test](/assets/t-test.jpeg)
+
+#### 📏 Cohen’s d
+
+•⁠  ⁠*Effect Size: 0.82 (large*)
+•⁠  ⁠*Interpretation*: Reminders had a strong real-world impact
+
+#### 🔍 Chi-Square Test
+
+•⁠  ⁠*Result*: Observed vs. expected attendance showed significant differences
+•⁠  ⁠*Interpretation*: Reminder group had a clearly higher turnout
+[Chi-Square Test](/assets/Chi_test.jpeg)
+
+
+### 📌 *Key Results:*
+
+| Metric              | Control Group | Treatment Group | Impact |
+| ------------------- | ------------- | --------------- | ------ |
+| *Attendance Rate* | 58.3%         | 91.6%           | +33.3% |
+| *No-Show Rate*    | 41.6%         | 8.3%            | −33.3% |
+
+### 💡 *Takeaways:*
+
+•⁠  ⁠Simple behavioral nudges can drive *measurable behavioral change*
+•⁠  ⁠Personalization + timely delivery (24–48 hours before) enhances effectiveness
+•⁠  ⁠Highlighting tangible incentives (e.g., free food) improves engagement
+
 
 Developed objective strategy for discovering optimal EEG bands based on signal power spectra using **Python**. This data-driven approach led to better characterization of the underlying power spectrum by identifying bands that outperformed the more commonly used band boundaries by a factor of two. The proposed method provides a fully automated and flexible approach to capturing key signal components and possibly discovering new indices of brain activity.
 
